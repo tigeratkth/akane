@@ -65,7 +65,7 @@ for i in range(num):
             book =  book +"    " +tr+'\n\n'    
     #本章保存完毕，换很多行与下一章区别
     book=book+'\n\n\n\n\n\n'
-#写入《李鸿章传》中
+#写入书中
 fSace.write(book)
 #好习惯，用完关闭！
 fSace.close()
